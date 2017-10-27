@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.supcoder.timqqguide.MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                app:lottie_fileName="LottieGuide1/data.json"
+                app:lottie_imageAssetsFolder="LottieGuide1/images" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/sel_guide_index"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/sel_guide_index"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/sel_guide_index"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/sel_guide_index"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="false" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

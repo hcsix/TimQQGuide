@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="zeus">#000000</color>
+    <color name="chicago">#5D5D5D</color>
+    <color name="mirage">#384146</color>
+
+
+    <color name="alto">#DADCDA</color>
+    <color name="blue">#2090EB</color>
+</resources>

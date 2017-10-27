@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TimQQGuide</string>
+
+    <string-array name="guide_title_array">
+        <item>10G免费云文件</item>
+        <item>高效的在线文档</item>
+        <item>超长消息漫游</item>
+        <item>熟悉的QQ习惯</item>
+    </string-array>
+
+    <string-array name="guide_subtitle_array">
+        <item>上传文件云端存储,首发文件长期有效。</item>
+        <item>在线Word/Excel,多端多人随时编辑。</item>
+        <item>聊天消息多端同步,历史消息随时查看。</item>
+        <item>界面简洁,QQ好友和消息无缝同步。</item>
+    </string-array>
+
+</resources>
